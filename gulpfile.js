@@ -9,7 +9,7 @@ function styles () {
 }
 
 function images () {
-    return gulp.src('./src/images/**/*')
+    return gulp.src('./assets/images/**/*')
     .pipe(imagemin())
     .pipe(gulp.dest('./dist/images'));
 }
